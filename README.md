@@ -20,14 +20,18 @@ git clone https://github.com/ismaellimarocha23/projeto_final_inst_eletr_prediais
 ```
 git fetch
 ```
-- Para pegar as mudanças que existem no repositório rode o comando:
+- Para aplicar as mudanças que existem no repositório rode o comando:
 ```
 git pull
 ```
 - sempre que fizer uma alteração abra o terminal na pasta do projeto e rode os commandos (lembre-se de sempre rodar "git pull" antes de fazer commmits para que você pegue as alterações dos outros):
- ```
- git commit -m "breve descrição do que você fez"
- ```
- ```
- git push
- ```
+```
+git add .
+git commit -m "breve descrição do que você fez" 
+git push
+```
+
+Você pode rodar esses comandos combinados todos de uma vez para não ter erro:
+```
+git pull; git add .; git commit -m "breve descrição do que você fez"; git push;
+```
